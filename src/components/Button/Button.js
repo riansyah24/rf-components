@@ -8,7 +8,7 @@ color = string
 - Background for navbar. Give a value like tailwind. Example : red-500, blue-700, green-300
 background = string
 
-- Works like className
+- Works like className for components
 style = string
 
 - Give a function for onClick
