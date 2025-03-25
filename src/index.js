@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.InputSearch = exports.InputPassword = exports.InputEmail = exports.InputText = exports.CardImage = exports.Navbar = exports.Button = void 0;
+exports.Form = exports.InputSearch = exports.InputTextarea = exports.InputPassword = exports.InputEmail = exports.InputText = exports.CardImage = exports.Navbar = exports.Button = void 0;
 var Button_1 = require("./components/Button/Button");
 Object.defineProperty(exports, "Button", { enumerable: true, get: function () { return Button_1.default; } });
 var Navbar_1 = require("./components/Navbar/Navbar");
@@ -13,6 +13,9 @@ var InputEmail_1 = require("./components/InputEmail/InputEmail");
 Object.defineProperty(exports, "InputEmail", { enumerable: true, get: function () { return InputEmail_1.default; } });
 var InputPassword_1 = require("./components/InputPassword/InputPassword");
 Object.defineProperty(exports, "InputPassword", { enumerable: true, get: function () { return InputPassword_1.default; } });
-//export { default as InputTextarea } from "./components/InputTextarea/InputTextarea"
+var InputTextarea_1 = require("./components/InputTextarea/InputTextarea");
+Object.defineProperty(exports, "InputTextarea", { enumerable: true, get: function () { return InputTextarea_1.default; } });
 var InputSearch_1 = require("./components/InputSearch/InputSearch");
 Object.defineProperty(exports, "InputSearch", { enumerable: true, get: function () { return InputSearch_1.default; } });
+var Form_1 = require("./components/Form/Form");
+Object.defineProperty(exports, "Form", { enumerable: true, get: function () { return Form_1.default; } });

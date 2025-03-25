@@ -1,6 +1,6 @@
 {
   "name": "rf-components",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "A package of React components for simplifying web application development",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
