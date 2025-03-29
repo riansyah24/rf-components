@@ -7,3 +7,5 @@ export { default as InputPassword } from "./components/InputPassword/InputPasswo
 export { default as InputTextarea } from "./components/InputTextarea/InputTextarea"
 export { default as InputSearch } from "./components/InputSearch/InputSearch"
 export { default as Form } from "./components/Form/Form"
+export { default as Toast } from './components/Toast/Toast';
+export { ToastProvider, useToast } from './components/Toast/ToastProvider';
